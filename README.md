@@ -42,6 +42,15 @@ This page focuses on ABC classification, demand variability, inventory priority,
 3. Demand & Supply Analysis
 This page analyzes demand trends, units sold, shipping performance, shipping delays, and order-status distribution over time.
 ![Demand & Supply Analysis](screenshots/Demand%20%26%20Supply%20Analysis.png)
+Excel Inventory Model
+The Excel model converts the analytical results into actionable inventory planning metrics.
+1.Safety Stock & Reorder Point
+Safety stock was calculated using a 95% service-level assumption, followed by product-level reorder point calculations using the assumed 14-day lead time.
+![Safety Stock & Reorder Point](screenshots/Safety%20Stock%20%26%20Reorder%20Point.png)
+Inventory Priority Summary
+2.A PivotTable summarizes the number of products, total reorder points, and average demand variability across inventory-priority categories.
+![Inventory Priority Summary](screenshots/Inventory%20Priority%20Summary.png)
+Excel Deliverable:** `inventory_calc_master.xlsx`
 # Data Source
 (https://www.kaggle.com/datasets/shashwatwork/dataco-smart-supply-chain-for-big-data-analysis)(Kaggle). Raw file not included in this repo due to size — download from the link above.
 # Business Impact
