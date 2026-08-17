@@ -8,14 +8,19 @@ Using approximately 180K order records, the goal was to move beyond descriptive 
 - **Excel** — safety stock and reorder point formulas, conditional formatting, pivot summary
 - **Power BI** — 3-page interactive dashboard with DAX measures and data modeling
 ## Analysis Performed
-Data cleaning — loaded ~180K order line items, checked for duplicates and nulls, calculated shipping delay (actual vs. scheduled shipping days).
-ABC classification — ranked all 118 products by cumulative revenue share using a SQL window function, splitting them into Class A (top 80% of revenue), B (next 15%), and C (remaining 5%).
-Demand variability — calculated average monthly demand, standard deviation, and coefficient of variation per product to identify which products have unpredictable (vs. steady) demand patterns.
-Delivery risk analysis — measured late delivery risk by product, region, and customer segment.
-Inventory priority scoring — combined ABC class, demand variability, and delivery risk into a single priority tier (High/Medium/Low) per product.
-Reorder point calculation — in Excel, calculated Safety Stock (using a 95% service level, Z=1.65) and Reorder Point per product, based on a 14-day lead time assumption (stated explicitly since the raw dataset doesn't include real supplier lead times).
-Dashboard build — modeled the data in Power BI across three pages: Inventory Overview, Inventory Optimization, and Demand & Supply Analysis.
-## Inventory Optimization Method
+1. **Data Cleaning** — loaded ~180K order line items, checked for duplicates and nulls, and calculated shipping delay using actual vs. scheduled shipping days.
+
+2. **ABC Classification** — ranked all 118 products by cumulative revenue share using a SQL window function, splitting them into Class A (top 80% of revenue), B (next 15%), and C (remaining 5%).
+
+3. **Demand Variability** — calculated average monthly demand, standard deviation, and coefficient of variation per product to identify unpredictable demand patterns.
+
+4. **Delivery Risk Analysis** — measured late delivery risk by product, region, and customer segment.
+
+5. **Inventory Priority Scoring** — combined ABC class, demand variability, and delivery risk into High, Medium, and Low priority tiers.
+
+6. **Reorder Point Calculation** — calculated Safety Stock and Reorder Point in Excel using a 95% service-level assumption and a 14-day lead-time assumption.
+
+7. **Dashboard Development** — modeled the analytical results in Power BI across three pages: Inventory Overview, Inventory Optimization, and Demand & Supply Analysis.
 
 ### Lead Time
 
