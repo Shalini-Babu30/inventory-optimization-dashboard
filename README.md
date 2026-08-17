@@ -52,7 +52,10 @@ Inventory Priority Summary
 ![Inventory Priority Summary](screenshots/Inventory%20Priority%20Summary.png)
 Excel Deliverable:** `inventory_calc_master.xlsx`
 # Data Source
-(https://www.kaggle.com/datasets/shashwatwork/dataco-smart-supply-chain-for-big-data-analysis)(Kaggle). Raw file not included in this repo due to size — download from the link above.
+**DataCo Smart Supply Chain for Big Data Analysis** — Kaggle
+[Dataset Link](https://www.kaggle.com/datasets/shashwatwork/dataco-smart-supply-chain-for-big-data-analysis)
+The raw dataset is not included in this repository due to file size. The SQL analysis script used for data validation and transformation is available in:
+`sql/inventory_analysis.sql`
 # Business Impact
 The analysis moves from descriptive reporting toward actionable inventory planning by identifying:
 - Which products contribute the most revenue
