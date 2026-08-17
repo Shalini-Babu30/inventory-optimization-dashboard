@@ -1,4 +1,4 @@
-                                            #INVENTORY OPTIMIZATION DASHBOARD
+                                                                                        #sql/inventory_analysis.sql
 USE inventory_optimization;
 #1. DATA VALIDATION
 -- Total number of records
