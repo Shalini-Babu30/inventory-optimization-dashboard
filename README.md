@@ -45,10 +45,16 @@ This converts monthly demand into estimated daily demand, accounts for demand du
 
 ## Insights Generated
 
-7 of 118 products (Class A) drive 80% of total revenue — the clear priority group for tight inventory control.
-9 products flagged High Priority — either Class A with elevated delivery risk, or demand volatility (coefficient of variation) above 1, meaning month-to-month demand swings wider than the product's own average.
-~55% of all orders carry late delivery risk, and it's nearly identical across Consumer, Corporate, and Home Office segments — pointing to a systemic fulfillment issue rather than a segment-specific one.
-Concrete reorder numbers, not just flags — e.g., the highest-revenue product (~$6.9M in sales) has a calculated reorder point of ~339 units given the lead time assumption, giving a specific number to act on rather than a vague "watch this" label.
+- **7 of 118 products are Class A**, representing the highest-value products and requiring tighter inventory control.
+
+- **9 products were classified as High Priority** based on the inventory-priority logic combining ABC classification, demand variability, and delivery risk.
+
+- **Demand variability analysis** identified products with unpredictable demand patterns that may require additional safety-stock consideration.
+
+- **Delivery risk analysis** highlighted significant late-delivery exposure across the order base.
+
+- **Reorder Point calculations** converted the analysis into an actionable replenishment metric for each product, providing a specific inventory threshold rather than only a risk flag.
+
 
 ---
 
