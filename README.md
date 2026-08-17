@@ -38,10 +38,10 @@ This page provides a high-level view of overall inventory and supply-chain perfo
 ![Inventory Overview](screenshots/inventory_overview.png)
 2. Inventory Optimization
 This page focuses on ABC classification, demand variability, inventory priority, and product-level inventory risk.
-![Inventory Optimization](screenshots/inventory_optimization.png)
+![Inventory Optimization](screenshots/Inventory%20Optimization.png)
 3. Demand & Supply Analysis
 This page analyzes demand trends, units sold, shipping performance, shipping delays, and order-status distribution over time.
-![Demand & Supply Analysis](screenshots/demand_supply_analysis.png)
+![Demand & Supply Analysis](screenshots/Demand%20%26%20Supply%20Analysis.png)
 # Data Source
 (https://www.kaggle.com/datasets/shashwatwork/dataco-smart-supply-chain-for-big-data-analysis)(Kaggle). Raw file not included in this repo due to size — download from the link above.
 # Business Impact
