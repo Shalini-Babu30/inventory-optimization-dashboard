@@ -1,12 +1,12 @@
-# Inventory Optimization Dashboard
+## Inventory Optimization Dashboard
 # Business Problem
 Most retail analytics answers "what sold." This project answers the harder question: which products are at risk of stockout or overstock, and specifically how many units should trigger a reorder for each one.
 Using approximately 180K order records, the goal was to move beyond descriptive reporting into actionable inventory planning by creating a prioritized list of products with calculated reorder points.
 # Tools Used
-1.SQL (MySQL) — data loading, cleaning, ABC classification via window functions, monthly demand aggregation
-2.Python (pandas) — demand variability calculations, delivery risk analysis, inventory priority scoring
-3.Excel — safety stock and reorder point formulas, conditional formatting, pivot summary
-4.Power BI — 3-page interactive dashboard with DAX measures and data modeling
+- **SQL (MySQL)** — data loading, cleaning, ABC classification via window functions, monthly demand aggregation
+- **Python (pandas)** — demand variability calculations, delivery risk analysis, inventory priority scoring
+- **Excel** — safety stock and reorder point formulas, conditional formatting, pivot summary
+- **Power BI** — 3-page interactive dashboard with DAX measures and data modeling
 # Analysis Performed
 Data cleaning — loaded ~180K order line items, checked for duplicates and nulls, calculated shipping delay (actual vs. scheduled shipping days).
 ABC classification — ranked all 118 products by cumulative revenue share using a SQL window function, splitting them into Class A (top 80% of revenue), B (next 15%), and C (remaining 5%).
